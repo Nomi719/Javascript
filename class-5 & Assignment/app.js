@@ -232,20 +232,119 @@
     // beginning & add that color to the beginning of the array.
     // Display the updated array in your browser.
 
-    var colors = ["blue", "black", "white", "purple"]
+    // var colors = ["blue", "black", "white", "purple"]
 
-    document.write("<h2> colors:</h2>");
-    document.write("<ol>");
-    for  ( var i = 0; i < colors.length; i++ ) {
-        document.write("<li>" + colors[i] + "</li>");
-    }
-    document.write("</ol>");
+    // document.write("<h2> colors:</h2>");
+    // document.write("<ol>");
+    // for  ( var i = 0; i < colors.length; i++ ) {
+    //     document.write("<li>" + colors[i] + "</li>");
+    // }
+    // document.write("</ol>");
 
     // a. Ask the user what color he/she wants to add to the
     //  beginning & add that color to the beginning of the array.
     //  Display the updated array in your browser.
 
-    var color = prompt("what color to show");
+    // var newColor = prompt("what color to add to beginnning");
+    // colors.unshift(newColor);
 
+    // document.write("<h2> Updatedcolors:</h2>");
+    // document.write("<ol>");
+    // for  ( var i = 0; i < colors.length; i++ ) {
+    //     document.write("<li>" + colors[i] + "</li>");
+    // }
+    // document.write("</ol>");
+
+//     b. Ask the user what color he/she wants to add to the end
+// & add that color to the end of the array. Display the
+// updated array in your browser.
+
+// var colors = ["blue", "black", "white", "purple"]
+
+
+// var newColor = prompt("what color to add to end");
+//     colors.push(newColor);
+
+//     document.write("<h2> Updatedcolors:</h2>");
+//     document.write("<ol>");
+//     for  ( var i = 0; i < colors.length; i++ ) {
+//         document.write("<li>" + colors[i] + "</li>");
+//     }
+//     document.write("</ol>");    
     
+
+//     c. Add two more color to the beginning of the array.
+// Display the updated array in your browser.
+
+
+// var colors = ["blue", "black", "white", "purple"]
+
+
+//     colors.unshift("white", "navyblue");
+
+//     document.write("<h2> Updatedcolors:</h2>");
+//     document.write("<ol>");
+//     for  ( var i = 0; i < colors.length; i++ ) {
+//         document.write("<li>" + colors[i] + "</li>");
+//     }
+//     document.write("</ol>");    
+
+//     d. Delete the first color in the array. Display the updated
+// array in your browser.
+
+// var colors = ["blue", "black", "white", "purple"]
+
+
+//     colors.shift();
+// document.write("<h2> Updatedcolors:</h2>");
+// document.write("<ol>");
+// for  ( var i = 0; i < colors.length; i++ ) {
+//     document.write("<li>" + colors[i] + "</li>");
+// }
+// document.write("</ol>"); 
+
+// e. Delete the last color in the array. Display the updated
+// array in your browser.
+
+
+// var colors = ["blue", "black", "white", "purple"]
+
+
+//     colors.pop();
+// document.write("<h2> Updatedcolors:</h2>");
+// document.write("<ol>");
+// for  ( var i = 0; i < colors.length; i++ ) {
+//     document.write("<li>" + colors[i] + "</li>");
+// }
+// document.write("</ol>"); 
+
+// f. Ask the user at which index he/she wants to add a color
+// & color name. Then add the color to desired
+// position/index. . Display the updated array in your
+// browser.
+
+// var colors = ["blue", "black", "white", "purple"]
+
+// var index = prompt("which index to do want to add a color");
+
+// var newColor = prompt("give the color name");
+
+// //index to number
+
+// index = parseInt(index);
+
+// // Add the color to the desired position/index
+// if (isNaN(index) || index < 0 || index > colors.length) {
+//     alert("Invalid index! Color will be added to the end.");
+//     colorNames.push(newColor);
+// } else {
+//     colors.splice(index, 0, newColor);
+// }
+
+// document.write("<h2> Updatedcolors:</h2>");
+// document.write("<ul>");
+// for  ( var i = 0; i < colors.length; i++ ) {
+//     document.write("<li>" + colors[i] + "</li>");
+// }
+// document.write("</ul>"); 
 
