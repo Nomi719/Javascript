@@ -348,3 +348,31 @@
 // }
 // document.write("</ul>"); 
 
+
+
+// var myProfile = ["noman"]
+
+// for(i=1; i<=10; i++){
+
+//     document.write("<span>" + myProfile[i] +  "</span>");
+// }
+
+
+// var names = ['chacha', "mama", "baba", "taya"]
+// console.log(names)
+// names.slice(0, 2);
+
+
+// document.write("<span>hellooo world</span>")
+
+// for(i=1; i<=10; i++){
+//     console.log("hello world"[7])
+// }
+
+var tableNum = +prompt("enter table number:")
+var tableLen = +prompt("enter table length")
+console.log(tableNum, "tableNum")
+
+for(i=1; i<=10; i++){
+    document.write(tableNum + "x" + i + "=" + tableNum * i + "<br/>");
+}

@@ -123,3 +123,27 @@
 // document.write("<ul>" + value+ "k</ul>")
 
 // }
+
+
+
+// var a = 6;
+// var b = 4;
+
+// console.log("cond1 && cond2", a <= b && a===b);
+
+// for(i=1; i<=20; i++){
+//     if(i % 2 == 0)
+//     // console.log(i, "even");
+//     document.write("<ul>" + i + "</ul>");
+// }
+
+// for(var i=1; i<=100; i++){
+//     if(i==90){
+//         console.log(i, "helloo world", "ok", "sahee hai bhaeee")
+//          continue
+//     }
+//     console.log(i);
+// }
+
+
+    
